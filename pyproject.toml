@@ -9,3 +9,4 @@ dependencies = [
     "pubchempy>=1.0.4",
     "streamlit>=1.46.0",
 ]
+package-mode = false
