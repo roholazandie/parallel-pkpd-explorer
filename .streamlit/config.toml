@@ -1,3 +1,0 @@
-[server]
-# Install only dependencies, skip installing your root package
-installCommand = "poetry install --no-root"

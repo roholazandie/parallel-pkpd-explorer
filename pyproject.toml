@@ -1,11 +1,16 @@
-[project]
-name = "parallel-pkpd-explorer"
-version = "0.1.0"
-description = "Add your description here"
-requires-python = ">=3.12"
-dependencies = [
-    "matplotlib>=3.10.3",
-    "pandas>=2.3.0",
-    "pubchempy>=1.0.4",
-    "streamlit>=1.46.0",
-]
+[build-system]
+requires    = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name         = "parallel-pkpd-explorer"
+version      = "0.1.0"
+description  = "Add your description here"
+package-mode = false
+
+[tool.poetry.dependencies]
+python       = ">=3.12"
+matplotlib   = ">=3.10.3"
+pandas       = ">=2.3.0"
+pubchempy    = ">=1.0.4"
+streamlit    = ">=1.46.0"
