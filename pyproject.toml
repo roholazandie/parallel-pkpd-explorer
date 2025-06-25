@@ -1,0 +1,10 @@
+[project]
+name = "parallel-pkpd-explorer"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.3",
+    "pandas>=2.3.0",
+    "streamlit>=1.46.0",
+]
